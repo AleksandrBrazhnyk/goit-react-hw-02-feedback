@@ -18,12 +18,17 @@
   cursor: pointer;
   transition: all 250ms var(--timingFn);
 }
+.button:last-child {
+  background-color: rgb(241, 5, 5);
+}
 
+.button:nth-child(3n) {
+  background-color: rgb(209, 212, 13);
+}
 .button:not(:last-child) {
   margin-right: 10px;
 }
 
 .button:hover {
   color: rgba(255, 255, 255, 0.9);
-  background-color: rgb(20, 130, 20);
 }
